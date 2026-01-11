@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: system-ui, sans-serif;
 }
 
 body {
@@ -10,31 +10,38 @@ body {
 }
 
 header {
-  padding: 25px;
   background: #020617;
+  padding: 25px;
   border-bottom: 1px solid #1e293b;
 }
 
-h1 {
-  margin: 0 0 10px 0;
-  font-size: 26px;
-  color: #f8fafc;
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.profile-header img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 3px solid #38bdf8;
+  object-fit: cover;
 }
 
 nav {
   display: flex;
   flex-wrap: wrap;
   gap: 14px;
-  align-items: center;
 }
 
 nav button {
   background: none;
   border: none;
+  color: #94a3b8;
   cursor: pointer;
   font-size: 15px;
-  color: #94a3b8;
-  padding-bottom: 4px;
 }
 
 nav button:hover {
@@ -47,49 +54,21 @@ nav button:hover {
 }
 
 main {
-  padding: 40px 20px;
   max-width: 900px;
   margin: auto;
+  padding: 40px 20px;
 }
 
 .card {
   background: #020617;
-  padding: 25px;
-  border-radius: 14px;
   border: 1px solid #1e293b;
+  border-radius: 14px;
+  padding: 25px;
   margin-bottom: 25px;
-  animation: fadeIn 0.3s ease;
 }
 
 footer {
   text-align: center;
-  padding: 25px;
-  font-size: 14px;
+  padding: 20px;
   color: #94a3b8;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(6px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.profile-header {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  margin-bottom: 40px;
-}
-
-.profile-header img {
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid #38bdf8;
 }
