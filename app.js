@@ -135,6 +135,25 @@ experience: `
         <p>📧 mehmetenes@gmail.com</p>
       </div>
     `
+    ,
+projects: `
+  <div class="card">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Teknofest:</strong> Participated in Teknofest projects as a team member.</li>
+      <li><strong>School Projects:</strong> Developed various individual and group projects.</li>
+    </ul>
+  </div>
+`,
+experience: `
+  <div class="card">
+    <h2>Experience</h2>
+    <p>
+      Completed an internship in the field of artificial intelligence.
+      Worked with a team on AI-based projects.
+    </p>
+  </div>
+`
   }
 };
 
