@@ -13,7 +13,7 @@ const data = {
         </p>
         <p>
           İnsan ilişkileri kuvvetli, özgüvenli ve
-          takım çalışmasına uyum sağlayabilen bir yapıya sahibim.
+          ekip çalışmasına uyum sağlayabilen bir yapıya sahibim.
         </p>
       </div>
     `,
@@ -21,11 +21,11 @@ const data = {
       <div class="card">
         <h2>Teknik Yetenekler</h2>
         <ul>
-          <li>C# — temel uygulamalar ve algoritma mantığı</li>
-          <li>Java — nesne yönelimli programlamaya giriş</li>
+          <li>C# — temel seviye</li>
+          <li>Java — OOP temelleri</li>
           <li>Python — temel seviye</li>
-          <li>JavaScript — DOM, SPA mantığı</li>
-          <li>HTML & CSS — responsive tasarımlar</li>
+          <li>JavaScript — DOM & SPA</li>
+          <li>HTML & CSS</li>
         </ul>
       </div>
     `,
@@ -35,12 +35,21 @@ const data = {
         <p>Lisans — 4. sınıf öğrencisi</p>
       </div>
     `,
-    interests: `
+    projects: `
       <div class="card">
-        <h2>İlgi Alanları</h2>
+        <h2>Projeler</h2>
+        <ul>
+          <li><strong>Teknofest:</strong> Teknofest projelerine ekip halinde katıldım.</li>
+          <li><strong>Okul Projeleri:</strong> Çeşitli bireysel ve grup projeleri geliştirdim.</li>
+        </ul>
+      </div>
+    `,
+    experience: `
+      <div class="card">
+        <h2>İş Deneyimi</h2>
         <p>
-          Spor hayatımda önemli bir yere sahiptir.
-          Özellikle futbol ve farklı spor dallarıyla ilgileniyorum.
+          Yapay zeka alanında staj yaptım.
+          Ekip ile birlikte yapay zeka tabanlı projeler geliştirdik.
         </p>
       </div>
     `,
@@ -49,7 +58,7 @@ const data = {
         <h2>Kısa Hedef</h2>
         <p>
           Mezuniyet sonrasında yurt dışında
-          çalışma veya eğitim deneyimi kazanmayı hedefliyorum.
+          çalışma veya eğitim deneyimi kazanmak.
         </p>
       </div>
     `,
@@ -58,25 +67,7 @@ const data = {
         <h2>İletişim</h2>
         <p>📧 mehmetenes@example.com</p>
       </div>
-    `,
-    projects: `
-  <div class="card">
-    <h2>Projeler</h2>
-    <ul>
-      <li><strong>Teknofest:</strong> Teknofest projelerine ekip halinde katılım sağladım.</li>
-      <li><strong>Okul Projeleri:</strong> Çeşitli bireysel ve grup projeleri geliştirdim.</li>
-    </ul>
-  </div>
-`,
-experience: `
-  <div class="card">
-    <h2>İş Deneyimi</h2>
-    <p>
-      Yapay zeka alanında staj yaptım.
-      Ekip ile birlikte yapay zeka tabanlı projeler geliştirdik.
-    </p>
-  </div>
-`
+    `
   },
 
   en: {
@@ -84,12 +75,8 @@ experience: `
       <div class="card">
         <h2>Profile</h2>
         <p>
-          I am Mehmet Enes Gündüz, a senior-year undergraduate student.
-          I am eager to learn, socially active, and focused on improving myself in software development.
-        </p>
-        <p>
-          I have strong communication skills, self-confidence,
-          and adapt well to teamwork.
+          I am Mehmet Enes Gündüz, a senior undergraduate student.
+          I am eager to learn and improve myself in software development.
         </p>
       </div>
     `,
@@ -97,11 +84,11 @@ experience: `
       <div class="card">
         <h2>Technical Skills</h2>
         <ul>
-          <li>C# — basic applications and algorithm fundamentals</li>
-          <li>Java — introduction to object-oriented programming</li>
+          <li>C# — basic level</li>
+          <li>Java — OOP basics</li>
           <li>Python — basic level</li>
-          <li>JavaScript — DOM manipulation, SPA logic</li>
-          <li>HTML & CSS — responsive layouts</li>
+          <li>JavaScript — DOM & SPA</li>
+          <li>HTML & CSS</li>
         </ul>
       </div>
     `,
@@ -111,49 +98,38 @@ experience: `
         <p>Bachelor’s Degree — Senior Student</p>
       </div>
     `,
-    interests: `
+    projects: `
       <div class="card">
-        <h2>Interests</h2>
+        <h2>Projects</h2>
+        <ul>
+          <li>Teknofest team projects</li>
+          <li>University software projects</li>
+        </ul>
+      </div>
+    `,
+    experience: `
+      <div class="card">
+        <h2>Experience</h2>
         <p>
-          Sports play an important role in my life.
-          I am especially interested in football and various other sports.
+          Completed an internship in artificial intelligence
+          and worked on AI-based projects with a team.
         </p>
       </div>
     `,
     goal: `
       <div class="card">
-        <h2>Short-Term Goal</h2>
+        <h2>Goal</h2>
         <p>
-          After graduation, I aim to gain international experience
-          through working or studying abroad.
+          To gain international experience after graduation.
         </p>
       </div>
     `,
     contact: `
       <div class="card">
         <h2>Contact</h2>
-        <p>📧 mehmetenes@gmail.com</p>
+        <p>📧 mehmetenes@example.com</p>
       </div>
     `
-    ,
-projects: `
-  <div class="card">
-    <h2>Projects</h2>
-    <ul>
-      <li><strong>Teknofest:</strong> Participated in Teknofest projects as a team member.</li>
-      <li><strong>School Projects:</strong> Developed various individual and group projects.</li>
-    </ul>
-  </div>
-`,
-experience: `
-  <div class="card">
-    <h2>Experience</h2>
-    <p>
-      Completed an internship in the field of artificial intelligence.
-      Worked with a team on AI-based projects.
-    </p>
-  </div>
-`
   }
 };
 
