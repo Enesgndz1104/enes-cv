@@ -58,7 +58,25 @@ const data = {
         <h2>İletişim</h2>
         <p>📧 mehmetenes@example.com</p>
       </div>
-    `
+    `,
+    projects: `
+  <div class="card">
+    <h2>Projeler</h2>
+    <ul>
+      <li><strong>Teknofest:</strong> Teknofest projelerine ekip halinde katılım sağladım.</li>
+      <li><strong>Okul Projeleri:</strong> Çeşitli bireysel ve grup projeleri geliştirdim.</li>
+    </ul>
+  </div>
+`,
+experience: `
+  <div class="card">
+    <h2>İş Deneyimi</h2>
+    <p>
+      Yapay zeka alanında staj yaptım.
+      Ekip ile birlikte yapay zeka tabanlı projeler geliştirdik.
+    </p>
+  </div>
+`
   },
 
   en: {
