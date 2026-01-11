@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #fafafa;
+  color: #222;
+}
+
+header {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+nav button {
+  margin-right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+nav button:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 30px;
+  max-width: 700px;
+}
+
+footer {
+  padding: 20px;
+  font-size: 14px;
+  color: #777;
+}
